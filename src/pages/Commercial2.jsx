@@ -47,7 +47,7 @@ function Commercial2() {
       location
     }
     console.log('Form Data:', formData)
-    // Here you would typically send this data to an API or perform other actions
+    //send this data to an API or perform other actions
   }
 
   return (
