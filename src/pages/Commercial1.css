@@ -1,0 +1,161 @@
+.Commercial{
+   background-color: #F2F2F2;
+    margin-top: 40px;
+    width: 90%;
+    border-width: 5px;
+    border-color: #F2F2F2;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+.navbar{ 
+    background-color: white;
+    padding: 20px;
+    height: 70px;
+     color: black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    margin-bottom: -80px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.Commercial-1{
+    color: #F2F2F2;
+    margin-top: 10%;
+    width: 70%;
+    border-width: 5px;
+    border-color: #F2F2F2;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+
+
+
+.button-button-1{
+    height: 30px;
+    width: 100px;
+    background-color: #4375FB;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    text-align: center;
+    margin-left: 80%;
+    color: white;
+    display: flex;
+}
+.h1{
+    background-color: white;
+    margin: 1%;
+    width: 850px;
+    display: grid;
+    border-width: thin;
+    padding: 20px;
+}
+
+  
+.underline-small-1{
+    color:#000000;
+    display:inline-block;
+    position:relative;
+    
+  }
+  
+  .underline-small-1::after{
+    content:'';
+    height:2px;
+    width: 300px;
+    background:black;
+    position:absolute;
+    left:0%;
+   
+}  
+
+  
+  .radio-container-1 {
+    margin-top: -80px;
+    text-align: left;
+  }
+  .radio-container {
+    text-align: left;
+  }
+  
+  .p {
+    color: black;
+    margin: 10px 0;
+  }
+  
+
+  .button-1{
+    margin-bottom: -50px;
+    height: 50px;
+    width: 100px;
+    background-color: #19181920;
+    margin-top: 220px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 15px 32px;
+    color: white;
+  }
+
+
+
+  .span{
+    margin :10px;
+column-gap: 10px;
+  
+  }
+
+
+  .h2{
+    background-color: white;
+    margin: 1%;
+    width: 850px;
+    display: grid;
+    border-width: thin;
+    padding: 20px;
+}
+
+  
+.underline-small{
+    color:#000000;
+    display:inline-block;
+    position:relative;
+    
+  }
+  
+  .underline-small::after{
+    content:'';
+    height:2px;
+    width: 300px;
+    background:black;
+    position:absolute;
+    left:0%;
+    bottom:-5px;
+}
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: #19181920;
+    margin-top: 200px;
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 15px 32px;
+    color: white;
+  }
