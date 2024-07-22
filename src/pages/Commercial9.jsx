@@ -100,12 +100,12 @@ const FormField = ({ title, subtitle, fields, fieldName, maxFileSize }) => {
   return (
     <div className="bg-white p-4 rounded shadow-sm border border-gray-200 mb-6">
       <div className='flex justify-between items-start'>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">{title}</h3>
-          {subtitle && <p className="text-sm text-gray-500 mb-4">{subtitle}</p>}
+            <div>
+            <h3 className="text-lg font-semibold mb-2">{title}</h3>
+            {subtitle && <p className="text-sm text-gray-500 mb-4">{subtitle}</p>}
+            </div>
+            <span className="text-white bg-green-600 px-2 py-1 rounded-sm text-xs">✓</span>
         </div>
-        <span className="text-white bg-green-600 px-2 py-1 rounded-sm text-xs">✓</span>
-      </div>
       <hr className="mb-4" />
       {fields ? (
         fields.map((field, index) => (
@@ -137,19 +137,32 @@ const FormField = ({ title, subtitle, fields, fieldName, maxFileSize }) => {
   );
 };
 
-function Agricultural7() {
-  const formFields = [
-    { title: "4. Registry of land", subtitle: "If applicable", fieldName: "Registry of land", maxFileSize: 5 },
-    { title: "5. Jamabandi", subtitle: "If applicable", fieldName: "Jamabandi", maxFileSize: 5 },
-    { 
-      title: "6. Khata Certificate and Extract",
-      fields: [
-        { label: "Khata Certificate", maxFileSize: 5 },
-        { label: "Extract", maxFileSize: 5 },
-      ]
-    },
-    { title: "7. Undertaking confirming the land is free from encumbrances", fieldName: "Undertaking Form", maxFileSize: 5 },
-  ];
+function Commercial9() {
+    const formFields = [
+        { 
+          title: "7. Possession Letter",
+          subtitle: "(For first possessor)",
+          fieldName: "Possession Letter", 
+          maxFileSize: 5 
+        },
+        { 
+          title: "8. Completion Certificate",
+          subtitle: "(For first possessor)",
+          fieldName: "Completion Certificate", 
+          maxFileSize: 5 
+        },
+        { 
+          title: "9. Occupancy Certificate",
+          subtitle: "(For first possessor)",
+          fieldName: "Occupancy Certificate", 
+          maxFileSize: 5 
+        },
+        { 
+          title: "10. RERA Registration Status",
+          fieldName: "RERA Registration Status", 
+          maxFileSize: 5 
+        },
+      ];
 
   return (
     <div className="bg-gray-100">
@@ -162,4 +175,4 @@ function Agricultural7() {
   );
 }
 
-export default Agricultural7;
+export default Commercial9;
