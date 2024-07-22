@@ -60,7 +60,7 @@ const FormField = ({ title, subtitle, fields, fieldName, maxFileSize }) => {
     <div className="bg-white p-4 rounded shadow-sm border border-gray-200 mb-6">
       <div className='flex justify-between'>
         <h3 className="text-lg font-semibold mb-2">{title}</h3>
-        <span className="text-white bg-green-600 px-3 border">✓</span>
+        <span className="text-white bg-green-600 px-3 border self-start">✓</span>
       </div>
       {subtitle && <p className="text-sm text-gray-500 mb-4">({subtitle})</p>}
       <hr className="mb-4" />
