@@ -42,12 +42,12 @@ const FormField = ({ label, type = 'file', maxFileSize = 5, onFieldChange }) => 
         {type === 'file' && (
           <button onClick={toggleUnavailable} className="text-xs">
             {isUnavailable ? 
-              <div className='flex border rounded-lg bg-red-300 p-1'>
+              <div className='flex border rounded-full bg-red-300 p-1'>
                 <span className="text-sm text-red-500">Document Unavailable</span>
                 <FaRegCircle className='self-center bg-red-500 border rounded-[50%]' />
               </div>
               : 
-              <div className='flex border rounded-lg bg-green-300 p-1'>
+              <div className='flex border rounded-full bg-green-300 p-1'>
                 <FaRegCircle className='self-center bg-green-500 border rounded-[50%]' />
                 <span className="text-sm text-green-500">Document Available</span>
               </div>

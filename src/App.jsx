@@ -6,6 +6,7 @@ import Agricultural4 from './pages/Agricultural4'
 import Agricultural7 from './pages/Agricultural7'
 import Commercial6 from './pages/Commercial6'
 import Commercial9 from './pages/Commercial9'
+import Commercial10_1_files from './pages/Commercial10_1_files'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/agricultural7" element={<Agricultural7 />} />
         <Route path="/commercial6" element={<Commercial6 />} />
         <Route path="/commercial9" element={<Commercial9 />} />
+        <Route path="/commercial10_1_files" element={<Commercial10_1_files />} />
       </Routes>
     </Router>
   )
